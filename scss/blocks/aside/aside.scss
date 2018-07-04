@@ -1,0 +1,21 @@
+.aside {
+	flex:0 0 320px;
+	background:$aside_bg;
+	color:#fff;
+	z-index:5;
+	position:relative;
+}
+.aside-wrap {
+	z-index:5;
+	top:0;
+	position:fixed;
+	width:320px;
+	padding:23px 30px 0;
+	display:flex;
+	flex-direction:column;
+	min-height:100vh;
+	background:$aside_bg;
+}
+.aside-top {
+	flex: 1 0 auto;
+}

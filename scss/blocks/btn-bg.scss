@@ -1,0 +1,15 @@
+.btn-bg {
+	display:inline-block;
+	background:$add_color;
+	color:#fff;
+	border-radius:5px;
+	text-align:center;
+	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
+	padding:10px;
+	transition:background 0.5s;
+	&:hover {
+		background:$add_color_3;
+	}
+}

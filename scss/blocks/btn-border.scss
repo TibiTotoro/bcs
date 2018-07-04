@@ -1,0 +1,22 @@
+.btn-border {
+	display:inline-block;
+	font-size:14px;
+	font-weight:bold;
+	padding:7px 5px;
+	border-radius:5px;
+	border:2px solid $add_color;
+	box-sizing:border-box;
+	text-decoration:none;
+	color:$add_color;
+	transition-duration:0.5s;
+	&:hover {
+		border:2px solid $add_color_3;
+		color:$add_color_3;
+	}
+	&_header {
+		min-width:150px;
+	}
+	&_more {
+		min-width:150px;
+	}
+}

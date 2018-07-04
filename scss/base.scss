@@ -1,0 +1,19 @@
+body {
+	font-family:$main_font;
+	min-width:320px;
+	font-size:$main_fs;
+	color:$main_color;
+}	
+
+h1 {
+	font-family:$main_font;
+	font-weight:700;
+	font-size:20px;
+}
+.wrap {
+	background:linear-gradient(to right, #F3F7FB 0, #F3F7FB 50%, #586B7D 50%, #586B7D 100%); 
+}
+.container {
+	background:#F3F7FB;
+	@include container;
+}	

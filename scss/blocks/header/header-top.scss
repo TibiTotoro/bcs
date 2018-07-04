@@ -1,0 +1,29 @@
+.header {
+	width:100%;
+	background:linear-gradient(to right, #fff 0, #fff 50%, #586B7D 50%, #586B7D 100%); 
+	z-index:2;
+}
+.header-top {
+	background:linear-gradient(to right, #fff 0, #fff 50%, #586B7D 50%, #586B7D 100%); 
+}
+.header-top:before {
+	content: '';
+    width: 50%;
+    position: absolute;
+    left:0;
+    top:calc(100% - 1px);
+    border-bottom: 1px solid #d2cad5;
+}
+.header-top__wrap {
+	background:#fff;
+	padding:20px 0 15px;
+	border-bottom: 1px solid #d2cad5;
+	@include padding-right;
+	@include container;
+
+}
+.header-top__logo {
+	float:left;
+	margin-right:65px;
+	padding-top:5px;
+}

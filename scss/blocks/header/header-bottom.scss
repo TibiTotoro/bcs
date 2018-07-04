@@ -1,0 +1,32 @@
+
+.header-bottom {
+	background:linear-gradient(to right, #fff 0, #fff 50%, #586B7D 50%, #586B7D 100%); 
+}
+.header-bottom__wrap {
+	background:#fff;
+	padding:10px 0;
+	@include padding-right;
+	@include container;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.header-bottom__more {
+	background:#F0F8FF;
+	padding:5px 15px;
+	align-self:center;
+}
+.header-bottom__more-link {
+	color:$add_color;
+	text-decoration:none;
+	&:after {
+		content:'';
+		background: url(../img/arrow.svg) no-repeat;
+		background-position:left center;
+		padding-right:15px;
+		margin-left:8px;
+	}
+}
+.header-bottom__checkbox-wrap {
+  display:inline-block;
+}

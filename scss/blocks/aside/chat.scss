@@ -1,0 +1,32 @@
+.chat {
+	position:absolute;
+	bottom:0;
+	flex: 0 0 auto;
+}
+.chat__text {
+	margin-bottom:-35px;
+	max-width:260px;
+	background:#fff;
+	color:$main_color;
+	border-radius:5px;
+	padding:20px 45px 20px 25px;
+	line-height:21px;
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.03);
+	cursor:pointer;
+	&:after {
+		content:'';
+		background:url(../img/ugol.svg);
+		display:block;
+		width:40px;
+		height:33px;
+		position:absolute;
+		left:100px;
+		top:100%; 
+	}
+	span {
+		color:#57a3ea;
+	}
+}
+.chat__img {
+	margin-left:150px;
+}

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAa,CACZ,OAAO,CAAC,IAAI,CACZ,OAAO,CAAC,MAAM,CAEf,kBAAmB,CAClB,UAAU,CAAC,MAAM,CACjB,KAAK,CAAC,IAAI,CACV,OAAO,CAAC,SAAS,CACjB,YAAY,CAAC,IAAI,CACjB,aAAa,CAAC,GAAG,CAWlB,iBAAkB,CACjB,YAAY,CAAC,CAAC,CACd,WAAW,CAAC,IAAI,CAChB,KAAK,CAAC,OAAO",
+"sources": ["credit-info.scss"],
+"names": [],
+"file": "credit-info.css"
+}

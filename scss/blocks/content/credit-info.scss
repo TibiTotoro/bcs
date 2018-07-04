@@ -1,0 +1,26 @@
+.credit-info {
+	display:flex;
+	padding:30px 0 18px;
+}
+.credit-info__item {
+	text-align:center;
+	color:#fff;
+	padding:10px 16px;
+	margin-right:10px;
+	border-radius:5px;
+	&-chance{
+		background:$add_color_3;
+	}
+	&-rate {
+		background:$add_color_2;
+	}
+	&-offer {
+		background:$add_color;
+	}
+}
+.credit-info__app {
+	margin-right:0;
+	margin-left:auto;
+	color:#4f4f4f;
+	align-self:center;
+}

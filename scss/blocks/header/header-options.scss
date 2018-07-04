@@ -1,0 +1,40 @@
+.header-options{
+	background:linear-gradient(to right, #fff 0, #fff 50%, #586B7D 50%, #586B7D 100%); 
+}
+.header-options:before {
+	content: '';
+    width: 50%;
+    position: absolute;
+    left:0;
+    top:calc(100% - 1px);
+    border-bottom: 1px solid #f2f2f2;
+}
+.header-options__wrap {
+	background:#fff;
+	padding:10px 0;
+	border-bottom: 1px solid #f2f2f2;
+	justify-content:space-between;
+	@include padding-right;
+	@include container;
+}
+.header-options__name {
+	color:#828282;
+	font-size:11px;
+	line-height:13px;
+	margin-bottom:5px;
+}
+.header-options__value {
+	font-size:18px;
+}
+.header-options__change {
+	align-self:center;
+	margin-right:0;
+	margin-left:auto;
+}
+
+.header-options__group:first-child {
+	margin-right:28px;
+}
+.header-options__group {
+	margin-right:23px;
+}

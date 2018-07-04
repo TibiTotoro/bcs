@@ -1,0 +1,153 @@
+﻿ @charset "utf-8"; 
+.product {
+	display:flex;
+	box-shadow:0 5px 12px rgba(88, 107, 125, 0.12);
+	border-radius:5px;
+	background:#fff;
+	margin-top:20px;
+	padding:15px 65px 20px 30px;
+	&_app,
+	&_rate,
+	&_optimal,	{
+	 	border-radius:0 5px 5px 0;
+	 	margin-top:30px;
+	 }
+	&_app:before {
+		content:'Макс. вероятность одобрения';
+		background:$add_color_3;
+		@include product-before;
+	}
+	&_app:after 
+	{
+		background:$add_color_3;
+		@include product-after;
+	}
+	&_rate:before {
+		content:'Мин. ставка';
+		background:$add_color_2;
+		@include product-before;
+	}
+	&_rate:after 
+	{
+		background:$add_color_2;
+		@include product-after;
+	}
+	&_optimal:before {
+		content:'Оптимальное предложение';
+		background:$add_color;
+		@include product-before;
+	}
+	&_optimal:after 
+	{
+		background:$add_color;
+		@include product-after;
+	}
+}
+
+
+.product__images {
+	flex:0 0 22%;
+	 display:flex;
+	 flex-direction:column;
+	 justify-content:space-between;
+	 align-items:flex-start;
+	 padding-top:10px;
+
+}
+.product__options span{
+	margin-right:12px;	
+}
+.product__main{
+	flex:0 0 48%;
+	padding:10px 0 15px;
+}
+.product__name {
+	margin-bottom:5px;
+}
+.product__name-link {
+	color:#4f4f4f;
+	text-decoration:none;
+	font-size:18px;
+}
+.product__info {
+	display:flex;
+	align-items:flex-end;
+	justify-content:space-between;
+}
+.product__rate {
+	flex:0 0 160px;
+}
+.product__payment {
+	flex:0 0 125px;
+}
+.product__label {
+	font-size: 11px;
+	color: #828282;
+	margin-bottom:5px;
+} 
+.product__value {
+	font-size: 24px;
+	color: #4F4F4F;
+}
+.product__value_rate {
+	font-size:18px;
+}
+.product__value_rate span {
+	font-size: 24px;
+}
+.product__approval .product__value {
+	color:$add_color_2;
+}
+
+
+.product__add-info {
+	display:flex;
+	flex-direction:column;
+	margin-left:auto;
+	justify-content:flex-end;
+	padding-bottom:15px;
+}
+.product__add-info .product__label {
+	margin-bottom:15px;
+}
+.product__btn-app {
+	display:block;
+	width:135px;
+	text-align:center;
+}
+.product__compare {
+	align-self:flex-start;
+	padding-left:2px;
+	display:flex;
+	align-items:center;
+	margin-top:10px;
+	&:before {
+		display:inline-block;
+		content:'';
+		width:20px;
+		height:17px;
+		background:url(../img/compare_blue.svg) no-repeat;
+		margin-right:5px;
+	}
+	&-link {
+		color:$add_color;
+		text-decoration:none;
+		border-bottom:1px dotted $add_color;
+	}
+	&-link:hover {
+		border-bottom:0px;
+	}
+}
+.product__link {
+	display:block;
+	width:20px;
+	height:100%;
+	border-left:1px solid #E0E0E0;
+	background:url(../img/arrow-right.svg) no-repeat center center;
+	position:absolute;
+	top:0px;
+	right:0;
+	&:hover {
+		opacity:0.7;
+	}
+}

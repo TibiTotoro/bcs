@@ -1,0 +1,31 @@
+.sort {
+	display:flex;
+	padding-bottom:5px;
+}
+.sort__label {
+	color:#4f4f4f;
+	margin-right:12px;
+}
+.sort__param {
+	margin-right:25px;
+	a {
+		text-decoration:none;
+		color:#4f4f4f;
+		
+	}
+	&_active a {
+		text-decoration:none;
+		color:#4f4f4f;
+		padding-bottom:2px;
+		border-bottom:2px solid $add_color;
+		&:after {
+	 		content:'';
+	 		width:10px;
+	 		height:12px;
+	 		display:inline-block;
+	 		margin-left:5px;
+	 		background:url(../img/arrow-down.svg);
+
+	 	}
+	 }	
+}

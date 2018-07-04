@@ -1,0 +1,29 @@
+.user {
+	display:flex;
+	margin-bottom:40px;
+}
+.user__name {
+	background:url(../img/user.svg) no-repeat;
+	color:#fff;
+	padding-left:25px;
+	padding-top:2px;
+	text-decoration:none;
+	align-items:flex-start;
+	flex: 1 0 auto;
+	margin-right:15px;
+}
+.user__compare {
+	background:url(../img/compare.svg) no-repeat;
+	background-size:cover;
+	width:20px;
+	height:18px;
+	display:block;
+	margin-right:15px;
+}
+.user__notice {
+	background:url(../img/notice.svg) no-repeat;
+	background-size:cover;
+	width:16px;
+	height:18px;
+	display:block;
+}
